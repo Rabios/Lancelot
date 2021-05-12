@@ -1,0 +1,6 @@
+devid=Rabios
+devtitle=Rabia Alhaffar
+gameid=lancelot
+gametitle=lancelot
+version=0.1
+icon=metadata/icon.png

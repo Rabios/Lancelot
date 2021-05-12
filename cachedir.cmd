@@ -1,0 +1,1 @@
+dir /b %1 > "%~dp0/dirlist.txt"
