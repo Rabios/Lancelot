@@ -34,8 +34,8 @@ LANCELOT - ADDING A GAME
 
 Example...
 
-1. When they ask for game name, Input it
-2. When they ask for genres, Input each one and add ", " Example: "Action, Shooter, Puzzle" (Without quotes)
+1. When launcher asks for game name, Input it
+2. When launcher asks ask for genres, Input each one and add ", " Example: "Action, Shooter, Puzzle" (Without quotes)
 3. Locate files and select it
 4. Done!
 
@@ -43,7 +43,9 @@ Example...
 LANCELOT - ADDING A LIST
 ==========================================================
 
-When they ask for list name, Input it, Then add games to list and done!
+Lists are great way to organize your games in groups...
+
+When launcher asks ask for list name, Input it, Then add games to list and done!
 
 ==========================================================
 LANCELOT - EDITING GAMES/LISTS
@@ -74,13 +76,13 @@ Q: There is no save button?
 A: Lancelot saves automatically.
 
 Q: What Lancelot made with?
-A: This game made with DragonRuby Game Toolkit in Ruby programming language, It's implemeneted on top of the fast and minimal Ruby implementation mruby, You can get it here: https://dragonruby.org
+A: Lancelot was made with DragonRuby Game Toolkit in Ruby programming language, It's implemeneted on top of the fast and minimal Ruby implementation mruby, You can get it here: https://dragonruby.org
 
 Q: Can i have source code?
-A: Yes you can and it's licensed under MIT, See here: https://github.com/Rabios/lancelot
+A: Yes you can and it's licensed under MIT, See here: https://github.com/Rabios/Lancelot
 
-Q: What if i had bug in the game?
-A: Easy, Go to https://github.com/Rabios/lancelot/issues and create new issue describing bug happen!
+Q: What if i had bug in Lancelot?
+A: Easy, Go to https://github.com/Rabios/Lancelot/issues and create new issue describing bug happen!
 
 Q: What they mean by split in Game Genres?
 A: This line below shows how to do it ->>>
@@ -186,4 +188,4 @@ LANCELOT - CHANGELOG
 =================================
 Version v0.1 (13/May/2021)
 =================================
-First release of the game!
+First release of the Game Launcher!
