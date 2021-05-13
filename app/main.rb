@@ -4,7 +4,7 @@
 
 # IDEA: If we have time we can add E key to edit info of game/list if possible, But doesn't mean i'll definitely do it.
 
-# Returns array elements from index from to index to at index
+# Returns first n elements of array
 def first_arr_elemes(n, arr)
   res = []
   
@@ -32,6 +32,7 @@ def count(a, elem)
   return res
 end
 
+# Generats list of genres!
 def gen_genres_list(arr)
   res = {}
   
@@ -216,6 +217,7 @@ def substr(str, from, to)
   return res
 end
 
+# Converts seconds to following format: <n>d <n>h <n>m <n>s
 def secs_to_str(s)
   secs = s
   
@@ -386,7 +388,7 @@ def dir(path)
   return res
 end
 
-# Returns file name of from path
+# Returns file name of path
 def filename(path)
   if $gtk.platform == "Windows"
     return path.split("\\")[-1]
@@ -615,10 +617,10 @@ def tick args
   if args.state.fps_enabled == 1
     args.outputs.primitives << {
       x: 1160,
-	  y: 710,
-	  text: "FPS: " + args.gtk.current_framerate.to_i.to_s,
+      y: 710,
+      text: "FPS: " + args.gtk.current_framerate.to_i.to_s,
       font: "fonts/ubuntu-title.ttf",
-	  size_enum: 6,
+      size_enum: 6,
       r: args.state.save0.themes[args.state.default_theme_index].text_color.r,
       g: args.state.save0.themes[args.state.default_theme_index].text_color.g,
       b: args.state.save0.themes[args.state.default_theme_index].text_color.b,
