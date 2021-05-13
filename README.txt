@@ -151,6 +151,9 @@ Amir Rajan         (@amirrajan)
 Akzidenz-Grotesk   (@Akzidenz-Grotesk)
 kota               (@kota)
 kartheek           (@kartheek)
+jujule             (@jujule)
+bytemfg            (@bytemfg)
+Hiro_r_b           (@Hiro_r_b)
 
 ==========================================================
 LANCELOT - THIRD PARTY
