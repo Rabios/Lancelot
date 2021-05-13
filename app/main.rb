@@ -3151,7 +3151,7 @@ def draw_menu args
     }.label
   elsif args.state.current_scene == 3
     args.outputs.primitives << {
-      x: 850,
+      x: 855,
       y: 64,
       text: "[LEFT/RIGHT] NAVIGATE",
       font: "fonts/ubuntu-title.ttf",
@@ -3163,7 +3163,7 @@ def draw_menu args
     }.label
   elsif args.state.current_scene == 4
     args.outputs.primitives << {
-      x: 850,
+      x: 855,
       y: 64,
       text: "[LEFT/RIGHT] NAVIGATE",
       font: "fonts/ubuntu-title.ttf",
