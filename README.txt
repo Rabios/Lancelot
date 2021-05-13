@@ -89,10 +89,10 @@ A: This line below shows how to do it ->>>
 
 Action, RPG, Puzzle
 
+Putting this in textbox is enough, So we have 3 genres now!
+
 Q: There is something weird with file explorer, Files not shown?
 A: Easy, Edit path to some dir and hit enter!
-
-Putting this in textbox is enough, So we have 3 genres now!
 
 ==========================================================
 LANCELOT - CONTROLS
