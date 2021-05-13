@@ -618,15 +618,9 @@ def tick args
     args.outputs.primitives << {
       x: 1160,
       y: 710,
-<<<<<<< HEAD
       text: "FPS: " + args.gtk.current_framerate.to_i.to_s,
       font: "fonts/ubuntu-title.ttf",
       size_enum: 6,
-=======
-	    text: "FPS: " + args.gtk.current_framerate.to_i.to_s,
-      font: "fonts/ubuntu-title.ttf",
-	    size_enum: 6,
->>>>>>> 31fcc68d707d9e88e14601fee96163a161e76cd2
       r: args.state.save0.themes[args.state.default_theme_index].text_color.r,
       g: args.state.save0.themes[args.state.default_theme_index].text_color.g,
       b: args.state.save0.themes[args.state.default_theme_index].text_color.b,
