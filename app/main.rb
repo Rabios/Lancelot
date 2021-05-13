@@ -615,10 +615,10 @@ def tick args
   if args.state.fps_enabled == 1
     args.outputs.primitives << {
       x: 1160,
-	  y: 710,
-	  text: "FPS: " + args.gtk.current_framerate.to_i.to_s,
+      y: 710,
+	    text: "FPS: " + args.gtk.current_framerate.to_i.to_s,
       font: "fonts/ubuntu-title.ttf",
-	  size_enum: 6,
+	    size_enum: 6,
       r: args.state.save0.themes[args.state.default_theme_index].text_color.r,
       g: args.state.save0.themes[args.state.default_theme_index].text_color.g,
       b: args.state.save0.themes[args.state.default_theme_index].text_color.b,
