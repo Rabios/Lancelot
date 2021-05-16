@@ -1,6 +1,6 @@
 # Written by Rabia Alhaffar in 7/May/2021
 # Lancelot, Tiny Game Launcher made for The Tool Jam in just 6 days
-# Updated: 13/May/2021
+# Updated: 16/May/2021
 
 # IDEA: If we have time we can add E key to edit info of game/list if possible, But doesn't mean i'll definitely do it.
 
@@ -536,15 +536,15 @@ def tick args
   if args.state.info_loaded == 0
     # If some important directory doesn't exist then create it!
     if !(File.exist?("data") && File.directory?("data"))
-      $gtk.system("mkdir data")
+      $gtk.system("powershell mkdir data")
     end
     
     if !(File.exist?("data/images") && File.directory?("data/images"))
-      $gtk.system("mkdir data/images")
+      $gtk.system("powershell mkdir data/images")
     end
     
     if !(File.exist?("data/backgrounds") && File.directory?("data/backgrounds"))
-      $gtk.system("mkdir data/backgrounds")
+      $gtk.system("powershell mkdir data/backgrounds")
     end
     
     load_data args
